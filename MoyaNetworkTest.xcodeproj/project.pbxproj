@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68CC01EC2999F7F20064FEC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC01EB2999F7F20064FEC0 /* AppDelegate.swift */; };
+		68CC01EE2999F7F20064FEC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC01ED2999F7F20064FEC0 /* SceneDelegate.swift */; };
+		68CC01F02999F7F20064FEC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC01EF2999F7F20064FEC0 /* ViewController.swift */; };
+		68CC01F32999F7F20064FEC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CC01F12999F7F20064FEC0 /* Main.storyboard */; };
+		68CC01F52999F7F60064FEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68CC01F42999F7F60064FEC0 /* Assets.xcassets */; };
+		68CC01F82999F7F60064FEC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68CC01F62999F7F60064FEC0 /* LaunchScreen.storyboard */; };
+		68CC02002999FAB70064FEC0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC01FF2999FAB70064FEC0 /* APIClient.swift */; };
+		68CC02022999FFDE0064FEC0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CC02012999FFDE0064FEC0 /* Model.swift */; };
+		AC6DF3E55F1BB86C8713143C /* Pods_MoyaNetworkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 968F73388B86DF930189B3B2 /* Pods_MoyaNetworkTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		287198B87BF4F6046F7C6FE8 /* Pods-MoyaNetworkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaNetworkTest.release.xcconfig"; path = "Target Support Files/Pods-MoyaNetworkTest/Pods-MoyaNetworkTest.release.xcconfig"; sourceTree = "<group>"; };
+		68CC01E82999F7F20064FEC0 /* MoyaNetworkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaNetworkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CC01EB2999F7F20064FEC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68CC01ED2999F7F20064FEC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68CC01EF2999F7F20064FEC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		68CC01F22999F7F20064FEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68CC01F42999F7F60064FEC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68CC01F72999F7F60064FEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68CC01F92999F7F60064FEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68CC01FF2999FAB70064FEC0 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		68CC02012999FFDE0064FEC0 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		968F73388B86DF930189B3B2 /* Pods_MoyaNetworkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaNetworkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3D65ADEDA8E62B3C1911FBB /* Pods-MoyaNetworkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaNetworkTest.debug.xcconfig"; path = "Target Support Files/Pods-MoyaNetworkTest/Pods-MoyaNetworkTest.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68CC01E52999F7F20064FEC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6DF3E55F1BB86C8713143C /* Pods_MoyaNetworkTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68CC01DF2999F7F20064FEC0 = {
+			isa = PBXGroup;
+			children = (
+				68CC01EA2999F7F20064FEC0 /* MoyaNetworkTest */,
+				68CC01E92999F7F20064FEC0 /* Products */,
+				B828D29B8EFEDBA613B343DC /* Pods */,
+				FBC0FAC25BCEBF94679778EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68CC01E92999F7F20064FEC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CC01E82999F7F20064FEC0 /* MoyaNetworkTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68CC01EA2999F7F20064FEC0 /* MoyaNetworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				68CC01EB2999F7F20064FEC0 /* AppDelegate.swift */,
+				68CC01ED2999F7F20064FEC0 /* SceneDelegate.swift */,
+				68CC01EF2999F7F20064FEC0 /* ViewController.swift */,
+				68CC02012999FFDE0064FEC0 /* Model.swift */,
+				68CC01FF2999FAB70064FEC0 /* APIClient.swift */,
+				68CC01F12999F7F20064FEC0 /* Main.storyboard */,
+				68CC01F42999F7F60064FEC0 /* Assets.xcassets */,
+				68CC01F62999F7F60064FEC0 /* LaunchScreen.storyboard */,
+				68CC01F92999F7F60064FEC0 /* Info.plist */,
+			);
+			path = MoyaNetworkTest;
+			sourceTree = "<group>";
+		};
+		B828D29B8EFEDBA613B343DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3D65ADEDA8E62B3C1911FBB /* Pods-MoyaNetworkTest.debug.xcconfig */,
+				287198B87BF4F6046F7C6FE8 /* Pods-MoyaNetworkTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FBC0FAC25BCEBF94679778EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968F73388B86DF930189B3B2 /* Pods_MoyaNetworkTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68CC01E72999F7F20064FEC0 /* MoyaNetworkTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CC01FC2999F7F60064FEC0 /* Build configuration list for PBXNativeTarget "MoyaNetworkTest" */;
+			buildPhases = (
+				BCED5DD1F89E209DB07EC1E3 /* [CP] Check Pods Manifest.lock */,
+				68CC01E42999F7F20064FEC0 /* Sources */,
+				68CC01E52999F7F20064FEC0 /* Frameworks */,
+				68CC01E62999F7F20064FEC0 /* Resources */,
+				79D8E149DD9E88ED4855BD8A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoyaNetworkTest;
+			productName = MoyaNetworkTest;
+			productReference = 68CC01E82999F7F20064FEC0 /* MoyaNetworkTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68CC01E02999F7F20064FEC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					68CC01E72999F7F20064FEC0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 68CC01E32999F7F20064FEC0 /* Build configuration list for PBXProject "MoyaNetworkTest" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68CC01DF2999F7F20064FEC0;
+			productRefGroup = 68CC01E92999F7F20064FEC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68CC01E72999F7F20064FEC0 /* MoyaNetworkTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68CC01E62999F7F20064FEC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CC01F82999F7F60064FEC0 /* LaunchScreen.storyboard in Resources */,
+				68CC01F52999F7F60064FEC0 /* Assets.xcassets in Resources */,
+				68CC01F32999F7F20064FEC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		79D8E149DD9E88ED4855BD8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaNetworkTest/Pods-MoyaNetworkTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MoyaNetworkTest/Pods-MoyaNetworkTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MoyaNetworkTest/Pods-MoyaNetworkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCED5DD1F89E209DB07EC1E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MoyaNetworkTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68CC01E42999F7F20064FEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68CC02022999FFDE0064FEC0 /* Model.swift in Sources */,
+				68CC01F02999F7F20064FEC0 /* ViewController.swift in Sources */,
+				68CC01EC2999F7F20064FEC0 /* AppDelegate.swift in Sources */,
+				68CC01EE2999F7F20064FEC0 /* SceneDelegate.swift in Sources */,
+				68CC02002999FAB70064FEC0 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68CC01F12999F7F20064FEC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CC01F22999F7F20064FEC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68CC01F62999F7F60064FEC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68CC01F72999F7F60064FEC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68CC01FA2999F7F60064FEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68CC01FB2999F7F60064FEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68CC01FD2999F7F60064FEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D65ADEDA8E62B3C1911FBB /* Pods-MoyaNetworkTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8AX56G69N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoyaNetworkTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.openobject.MoyaNetworkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68CC01FE2999F7F60064FEC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287198B87BF4F6046F7C6FE8 /* Pods-MoyaNetworkTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L8AX56G69N;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoyaNetworkTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = net.openobject.MoyaNetworkTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68CC01E32999F7F20064FEC0 /* Build configuration list for PBXProject "MoyaNetworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CC01FA2999F7F60064FEC0 /* Debug */,
+				68CC01FB2999F7F60064FEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CC01FC2999F7F60064FEC0 /* Build configuration list for PBXNativeTarget "MoyaNetworkTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CC01FD2999F7F60064FEC0 /* Debug */,
+				68CC01FE2999F7F60064FEC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68CC01E02999F7F20064FEC0 /* Project object */;
+}
